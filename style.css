@@ -523,37 +523,79 @@ a, a:hover { text-decoration: none; }
         }
 
     .pricing-plan .pricing-price { padding: 40px 30px; display: flex; justify-content: center; line-height: 0.7; }
-        .pricing-plan .pricing-price .currency {
-            font-size: 16px;
-            font-weight: 300;
-            color: var(--black400);
-            margin-right: 5px;
-            align-self: flex-start;
-        }
+        /* Style the original price with a strikethrough */
+.original-price {
+    color: #888;
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+/* Style the discounted price */
+.discounted-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f44336; /* Red or another color to make it stand out */
+}
+
+/* Style the discount percentage */
+.discount-percentage {
+    color: #f44336;
+    font-size: 0.9em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
 
         .pricing-plan .pricing-price .price { font-size: 80px; font-weight: 700; color: var(--main-color); }
-        .pricing-plan .pricing-price .period {
-            font-size: 14px;
-            font-weight: 300;
-            color: var(--black400);
-            margin-right: 5px;
-            align-self: flex-end;
-            text-transform: uppercase;
-        }
+        /* Style the original price with a strikethrough */
+.original-price {
+    color: #888;
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+/* Style the discounted price */
+.discounted-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f44336; /* Red or another color to make it stand out */
+}
+
+/* Style the discount percentage */
+.discount-percentage {
+    color: #f44336;
+    font-size: 0.9em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
 
     .pricing-plan .pricing-body { padding: 0 30px; }
-        .pricing-plan .pricing-body ul li {
-            font-size: 16px;
-            font-weight: 300;
-            color: var(--black400);
-            padding: 10px 0 10px 30px;
-            border-bottom: 1px solid var(--black-alpha100);
-            line-height: 26px;
-            position: relative;
-        }
+       /* Style the original price with a strikethrough */
+.original-price {
+    color: #888;
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+/* Style the discounted price */
+.discounted-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f44336; /* Red or another color to make it stand out */
+}
+
+/* Style the discount percentage */
+.discount-percentage {
+    color: #f44336;
+    font-size: 0.9em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
 
             .pricing-plan .pricing-body ul li:last-child { border-bottom: none; }
-            .pricing-plan .pricing-body ul li i { color: var(--main-color); position: absolute; left: 0; top: 12px; }
+            .pricing-plan .pricing-body ul li i { color: var(--main-color); position: absolute; left: 0; top: 12px; }}
 
     .pricing-plan .pricing-footer { padding: 20px 30px 30px; text-align: center; }
 
