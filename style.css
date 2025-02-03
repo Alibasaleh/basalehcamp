@@ -523,79 +523,79 @@ a, a:hover { text-decoration: none; }
         }
 
     .pricing-plan .pricing-price { padding: 40px 30px; display: flex; justify-content: center; line-height: 0.7; }
-        /* Style the original price with a strikethrough */
-.original-price {
-    color: #888;
-    margin-left: 10px;
-    font-size: 0.9em;
+        .pricing-plan .pricing-price .currency {
+            font-size: 16px;
+            font-weight: 300;
+            color: var(--black400);
+            margin-right: 5px;
+            align-self: flex-start;
+        }
+
+
+
+       .pricing-plan .pricing-price .price { font-size: 80px; font-weight: 700; color: var(--main-color); }
+      /* Styling the container */
+.pricing-header, .pricing-price, .pricing-body, .pricing-footer {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-/* Style the discounted price */
-.discounted-price {
-    font-size: 1.5em;
+/* Highlighting the "popular" item */
+.pricing-container.popular {
+    background-color: #f3f6f9;
+    border: 2px solid #3498db;
+    transform: scale(1.05);  /* Slightly enlarges the element */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Stronger shadow for emphasis */
+}
+
+/* Styling for the price section */
+.pricing-price .price {
+    font-size: 2em;
     font-weight: bold;
-    color: #f44336; /* Red or another color to make it stand out */
+    color: #333;
 }
 
-/* Style the discount percentage */
-.discount-percentage {
-    color: #f44336;
-    font-size: 0.9em;
-    margin-left: 10px;
+/* Add some styling to the button to make it more noticeable */
+.pricing-footer .btn-1 {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
     font-weight: bold;
 }
 
-
-        .pricing-plan .pricing-price .price { font-size: 80px; font-weight: 700; color: var(--main-color); }
-        /* Style the original price with a strikethrough */
-.original-price {
-    color: #888;
-    margin-left: 10px;
-    font-size: 0.9em;
+.pricing-footer .btn-1:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Style the discounted price */
-.discounted-price {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #f44336; /* Red or another color to make it stand out */
+/* Hover effect to scale the pricing card */
+.pricing-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Style the discount percentage */
-.discount-percentage {
-    color: #f44336;
-    font-size: 0.9em;
-    margin-left: 10px;
-    font-weight: bold;
-}
+
 
 
     .pricing-plan .pricing-body { padding: 0 30px; }
-       /* Style the original price with a strikethrough */
-.original-price {
-    color: #888;
-    margin-left: 10px;
-    font-size: 0.9em;
-}
-
-/* Style the discounted price */
-.discounted-price {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #f44336; /* Red or another color to make it stand out */
-}
-
-/* Style the discount percentage */
-.discount-percentage {
-    color: #f44336;
-    font-size: 0.9em;
-    margin-left: 10px;
-    font-weight: bold;
-}
+        .pricing-plan .pricing-body ul li {
+            font-size: 16px;
+            font-weight: 300;
+            color: var(--black400);
+            padding: 10px 0 10px 30px;
+            border-bottom: 1px solid var(--black-alpha100);
+            line-height: 26px;
+            position: relative;
+        }
 
 
             .pricing-plan .pricing-body ul li:last-child { border-bottom: none; }
-            .pricing-plan .pricing-body ul li i { color: var(--main-color); position: absolute; left: 0; top: 12px; }}
+            .pricing-plan .pricing-body ul li i { color: var(--main-color); position: absolute; left: 0; top: 12px; }
 
     .pricing-plan .pricing-footer { padding: 20px 30px 30px; text-align: center; }
 
