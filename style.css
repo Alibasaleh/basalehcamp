@@ -153,7 +153,7 @@ a, a:hover { text-decoration: none; }
     height: 82%;
     border: 20px solid var(--main-color);
     border-bottom: none;
-    top: 50%;
+    top: 55%;
     left: 0;
     transform: translateY(-50%);
 }
@@ -164,7 +164,7 @@ a, a:hover { text-decoration: none; }
     width: 85%;
     height: 20px;
     background-color: var(--main-color);
-    bottom: 50px;
+    bottom: 0px;
     left: 0;
     z-index: 11;
 }
