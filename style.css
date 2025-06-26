@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Montserrat:wght@700&display=swap" rel="stylesheet');
 
 :root {
-    --main-color: #0293c3;
+    --main-color: #f9f9f9;
     --black100: #f7f7f7;
     --black400: #555555;
     --black900: #000000;
@@ -16,7 +16,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #fffbfb;
+    color: #4c6cd6;
 };
 
 * { margin: 0; padding: 0; outline: none !important; }
@@ -119,7 +119,7 @@ a, a:hover { text-decoration: none; }
                     .navbar .nav-item .nav-link.active::before, .navbar .nav-item .nav-link:hover::before { height: 45px; }
 
 .header-content {
-    background-color: #fbfbfb;
+    background-color: #3a78e2;
     height: 800px;
     padding-top: 110px;
     position: relative;
@@ -750,7 +750,7 @@ a, a:hover { text-decoration: none; }
         padding: 10px 0;
         text-align: center;
         font-size: 18px;
-        color: rgba(255, 255, 255, .9);
+        color: rgba(45, 68, 219, 0.9);
         font-weight: 300;
         margin: 10px 0 0;
     }
@@ -800,6 +800,11 @@ a, a:hover { text-decoration: none; }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .about-content ul li { width: 100%; float: none; }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .about-content ul li { width: 50%; float: left; }
+}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
